@@ -11,7 +11,7 @@ public class Bisiesto {
 		System.out.println("Introduce un año:");
 		anno = in.nextInt();
 		
-		if (anno% 4 == 0 && anno % 400 == 0 || anno % 100 != 0) {
+		if (anno% 4 == 0 && (anno % 400 == 0 || anno % 100 != 0)) {
 			System.out.println(anno + " es bisiesto.");
 		} else System.out.println(anno + " no es bisiesto.");
 		
