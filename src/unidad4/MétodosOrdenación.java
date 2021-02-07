@@ -49,9 +49,8 @@ public class MétodosOrdenación {
 		for (int i = 0; i < v.length-1; i++) {
 			int min = i;
 			for (int j = i+1; j < v.length; j++) {
-				if (v[j] < v[min]) {
+				if (v[j] < v[min])
 					min = j;
-				} // if
 			} // for j
 			if (i != min) {
 				int aux = v[i];
